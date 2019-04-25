@@ -124,7 +124,7 @@
                 <RowDefinition Height="424*"/>
             </Grid.RowDefinitions>
             <!--Camera viewfinder >-->
-            <Rectangle Width="804" HorizontalAlignment="Left" Margin="-13,-43,-15,0" Grid.RowSpan="2" Grid.ColumnSpan="3"  >
+            <Rectangle Width="804" HorizontalAlignment="Left" Margin="-13,-32,-15,-11" Grid.RowSpan="2" Grid.ColumnSpan="3"  >
                 <Rectangle.Fill>
                     <VideoBrush x:Name="viewfinderBrush"  />
                 </Rectangle.Fill>
@@ -185,6 +185,7 @@
                     </Image.RenderTransform>
                 </Image>
             </Button>
+            <Button x:Name="EVFbutton" Content="EVF" Grid.Column="2" HorizontalAlignment="Left" Margin="183,10,0,0" Grid.Row="1" VerticalAlignment="Top" Height="66" Width="86" Click="Button_Click_1" Opacity="0.65"/>
 
         </Grid>
 
